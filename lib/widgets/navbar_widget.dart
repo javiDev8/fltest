@@ -14,7 +14,7 @@ class Navbar extends StatelessWidget {
       destinations: [
         NavigationDestination(icon: Icon(Icons.sell), label: 'A'),
         NavigationDestination(icon: Icon(Icons.home), label: 'B'),
-        NavigationDestination(icon: Icon(Icons.settings), label: 'C'),
+        NavigationDestination(icon: Icon(Icons.settings), label: '3'),
       ],
     );
   }

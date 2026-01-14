@@ -27,7 +27,7 @@ class App extends StatelessWidget {
             index: index,
             children: [
               HomeScreen(),
-              Center(child: Text('pantalla 2')),
+              Center(child: Text('screen B')),
               Center(child: Text('pantalla 3')),
             ],
           ),
