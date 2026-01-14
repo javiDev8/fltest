@@ -1,4 +1,5 @@
 import 'package:fltest/screens/home/home_screen.dart';
+import 'package:fltest/screens/notes/note_screen.dart';
 import 'package:fltest/widgets/navbar_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -26,8 +27,8 @@ class App extends StatelessWidget {
           body: IndexedStack(
             index: index,
             children: [
+	      NoteScreen(),
               HomeScreen(),
-              Center(child: Text('screen B')),
               Center(child: Text('pantalla 3')),
             ],
           ),
